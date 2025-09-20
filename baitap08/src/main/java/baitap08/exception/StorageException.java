@@ -8,7 +8,7 @@ public class StorageException extends RuntimeException {
         super(message);
     }
 
-    public StorageException(String message, Throwable cause) {  // Sửa từ Exception thành Throwable
+    public StorageException(String message, Throwable cause) {  
         super(message, cause);
     }
 }
